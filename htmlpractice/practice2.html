@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<html lang="ko">
+  <head>
+    <meta charset='utf-8'>
+    <title>IoT</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Nanum+Pen+Script&display=swap');
+    .font {font-family: 'Nanum Pen Script';}
+    .footer-font {font-size: 13px}
+    .font-sizeup {font-family: 'Nanum Pen Script'; font-size: 23px}
+
+    p {font-size: 20px}
+    html, body {height: 100%; margin: 0;}
+    div {height: 100%; margin: 0;}
+    header {background-color: rgb(196, 255, 150); padding: 10px}
+    footer {border:1px solid Black; height: 100px;}
+    button {width:120px; height: 40px; color:#fff; background: rgb(196, 163, 255); font-size: 16px; border:none; border-radius: 20px; box-shadow: 0 4px 16px rgba(196, 163, 255, 0.3); transition: 0.3s; }
+    button:focus{outline:0;}
+    button:hover{background-color: rgba(196, 163, 255, 0.9); cursor: pointer; box-shadow: 0 2px 4px rgba(196, 163, 255, 0.6);}
+
+    .container {background-color:#F0F0F0; width:960px; margin:0 auto; padding:10px;}
+    .content {background-color:#F5F5F5; float:right; width:660px; height:400px; text-align: center;}
+    .sideinfo { background-color:#DCDAD9; float:left; width:300px; height:400px; }
+    .position {position: absolute; left: 35%; top: 50%}
+
+    </style>
+  </head>
+
+  <body>
+
+   <div class='container'>
+   <header class='font'><h1>Internet of Things</h1><h3>21214 윤민우</h3></header>
+   <div class='sideinfo'><p class='font'>&nbsp;&nbsp;현재 상태 : </p></div>
+   <div class='content', 'postion'>
+     <br /><br /><br/><br /><p class='font'>릴레이 : <a href=\"/LED=ON\"><button class='font-sizeup'>ON</button></a></p>
+     <br /><br /><p class='font'>릴레이 : <a href=\"/LED=OFF\"><button class='font-sizeup'>OFF</button></a></p>
+   </div>
+   <footer><h5>© copyright 2020 by 윤민우</h5><p class='footer-font'>It's the practice of esp8266 + html, css</p></footer>
+   </div>
+  </body>
+</html>
